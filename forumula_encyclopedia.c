@@ -150,7 +150,7 @@ top:
         case 1:
             system("cls");
             printf("\t\t\t\tThe formula of physics are:\n");
-            ptr = fopen("physics.txt", "r");
+            ptr = fopen("formulas/physics.txt", "r");
             checkFile(ptr);
             display(ptr);
             fclose(ptr);
@@ -159,7 +159,7 @@ top:
         case 2:
             system("cls");
             printf("\t\t\t\tThe formula of math are:\n");
-            ptr = fopen("math.txt", "r");
+            ptr = fopen("formulas/math.txt", "r");
             checkFile(ptr);
             display(ptr);
             fclose(ptr);
@@ -168,7 +168,7 @@ top:
         case 3:
             system("cls");
             printf("\t\t\t\tThe formula of electric are:\n");
-            ptr = fopen("electric.txt", "r");
+            ptr = fopen("formulas/electric.txt", "r");
             checkFile(ptr);
             display(ptr);
             fclose(ptr);
@@ -196,13 +196,13 @@ top:
         printf("\t\t\t\tDisplaying all formula:\n");
         printf("\t\t\t\tThe formula of physics are:\n");
         printf("\nName\t\t\t\tFormula\n");
-        ptr = fopen("physics.txt", "r");
+        ptr = fopen("formulas/physics.txt", "r");
         checkFile(ptr);
         display(ptr);
         fclose(ptr);
         printf("\t\t\t\tThe formula of math are:\n");
         printf("\nName\t\t\t\tFormula\n");
-        ptr = fopen("math.txt", "r");
+        ptr = fopen("formulas/math.txt", "r");
         checkFile(ptr);
         printf("\n");
         display(ptr);
